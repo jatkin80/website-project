@@ -1,1 +1,1 @@
-# jatkin80.github.io
+# Individual Project for Learn to Code Program entryy
