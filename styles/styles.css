@@ -8,7 +8,7 @@ body{
     font-size: larger;
 font-weight: bold;
     color: darkslategray;
-    text-align: center;
+    
  }
 
 #navmenu {
@@ -41,7 +41,7 @@ list-style-type: none;
 
 ul.nav>li {
 display: inline-block;
-width: 20%;
+
 padding: 0px 3px 0px 3px;
 align-content: center;
 
@@ -65,7 +65,17 @@ h1{
     font-size: 80px;
     font-family: 'Corinthia', cursive;
     font-weight: bold;
-    font-stretch:expanded;
+       font-stretch:expanded;
+        text-shadow: 
+    1px 1px 2px rgb(168, 142, 155);
+    color: darkslategrey;
+
+}
+
+h2{
+    text-shadow: 
+           .8px .8px .8px rgb(161, 126, 144);
+           color: darkslategrey;
 }
 
 
@@ -75,14 +85,31 @@ h1{
   }
 
 main{
-    display: block;
+    
     border-radius: 10px;
+    
     border-color: rgb(168, 122, 145);
     border-style: solid;
     text-align: center;
-    margin: 4em;
-    padding: 1em 4em 1em 4em;
+    margin: 4em 2em 0em 2em;
+    padding: 1em 2em 1em 2em;
     background-color:rgb(248, 248, 242)
+}
+
+#about-me{
+    text-align: justify;
+    align-content: center;
+    display: inline-block;
+    size: 20em;
+
+}
+
+#why{
+    text-align: justify;
+    align-content: center;
+    display: inline-block;
+    size: 20em;
+
 }
 
 .banner{
@@ -90,8 +117,8 @@ main{
     align-content: center;
        border-radius: 3px;
     width: 15em;
-  border: 2px solid  rgb(72, 85, 79);
-  box-shadow: 8px 8px 5px rgb(72, 85, 79);
+  border: 2px solid  rgb(168, 142, 155);
+  box-shadow: 6px 6px 5px rgb(99, 117, 117);
   padding: 8px 12px;
   background-color: lavenderblush;
 }
@@ -190,7 +217,7 @@ section{
     border-color: rgb(168, 122, 145);
     border-style: solid;
     text-align: justify;
-    margin: 6em;
+    margin: 2em;
     padding: 1em 2em 1em 2em;
     background-color:rgb(248, 248, 242)
 }
